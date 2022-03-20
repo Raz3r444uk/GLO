@@ -33,6 +33,7 @@ tabButtons.forEach((tabButton, index) => {
     tabTittles.forEach((title, indexTitle) => {
       if (index === indexTitle) {
         title.classList.remove("hidden");
+        document.title = title.innerHTML;
       } else {
         title.classList.add("hidden");
       }
