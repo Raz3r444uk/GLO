@@ -3,6 +3,8 @@ const tabDescr = document.querySelectorAll(".design__descr");
 const tabImg = document.querySelectorAll(".design-images");
 const tabMainImg = document.querySelectorAll(".design-block__img");
 const tabTittles = document.querySelectorAll(".design__title");
+const startTitle = document.querySelector(".design-list__item").innerHTML;
+document.title = startTitle;
 
 const changeContent = (array, value) => {
   array.forEach((elem) => {
